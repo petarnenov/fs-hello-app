@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''git pull
-npm i 
+        sh '''npm i 
 ls -ltr
+
 '''
       }
     }
