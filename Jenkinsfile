@@ -3,8 +3,10 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''npm i
-ls -ltr'''
+        sh '''npm i 
+ls -ltr
+
+'''
       }
     }
 
