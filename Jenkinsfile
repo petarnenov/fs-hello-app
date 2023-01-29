@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('clone') {
+    stage('Build') {
       steps {
         sh '''npm i
 npm start'''
