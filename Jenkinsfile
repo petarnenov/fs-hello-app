@@ -15,5 +15,12 @@ npm start'''
       }
     }
 
+    stage('Deliver') {
+      steps {
+        sh '''echo "Deliver to ..."
+'''
+      }
+    }
+
   }
 }
