@@ -16,5 +16,6 @@ jobs:
     steps:
       - checkout
       - run: node --version
+      - run: npm i 
       - run: npm test
 
