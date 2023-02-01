@@ -25,3 +25,8 @@ workflows:
           steps:
             - checkout
             - run: node --version
+            - run:
+              name: Run Test
+              command: npm test
+
+
